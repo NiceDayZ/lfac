@@ -1,0 +1,33 @@
+1 intreg i1 0 0 
+2 intreg i2 0 0 36
+3 intreg i3 0 0 9
+5 rational r1 0 0 
+6 rational r2 0 0 125
+7 rational r3 0 0 1.25
+9 caracter c1 0 0 
+10 caracter c2 0 0 c
+11 caracter c3 0 0 c
+13 text t1 0 0 
+14 text t2 0 0 more text
+15 text t3 0 0 even more text
+17 intrerupator b1 0 0 
+18 intrerupator b2 0 0 1
+19 intrerupator b3 0 0 1
+21 obiect Profesor 0 0 
+23 Profesor->text nume 0 1 
+24 Profesor->intreg ani 0 1 
+26 Profesor->functie_{rational}_Incomplet_Definita noteaza 0 1 
+28 Profesor->functie_{intrerupator}_Complet_Definita aPredat 0 1 
+34 obiect_Profesor profIonescu 0 0 
+36 functie_{intreg}_Complet_Definita calcLuni 0 0 
+38 intreg luni 1 1 0
+42 vector_{intreg}_[50] v1 0 0 
+48 intreg nota 2 1 0
+50 intreg l 2 1 6
+58 intreg z 1 2 1
+63 intreg z 2 2 2
+66 intreg i 2 1 0
+69 intreg z 3 2 3
+74 intreg z 4 2 4
+78 functie_{text}_Incomplet_Definita f 2 1 
+83 text t4 2 1 more text 

@@ -1,0 +1,89 @@
+#intreg         i1
+#intreg         i2 = 3+ 5*7- 2/2 - 1
+#intreg         i3 = (i2 - 9) / 3
+
+#rational       r1
+#rational       r2 = 5.0^3.0
+#rational       r3 = r2 * 0.01
+
+#caracter       c1
+#caracter       c2 = 'c'
+#caracter       c3 = c2
+
+#text           t1
+#text           t2 = "more " + "text"
+#text           t3 = "even " + t2
+
+#intrerupator   b1
+#intrerupator   b2 = i2 / 3 == 12
+#intrerupator   b3 = (nu @b2 sau c2 == 'c') sau (i2 >= 30 si i2 < 40)
+
+#obiect Profesor
+incepe
+    #text nume
+    #intreg ani
+    
+    #functie {rational} noteaza(#text elev)
+    
+    #functie {intrerupator} aPredat ()
+    incepe
+        returneaza stins
+    termina 
+termina
+
+#obiect Profesor profIonescu
+
+#functie {intreg} calcLuni()
+incepe
+    #intreg luni = profIonescu.ani * 12
+    returneaza luni
+termina
+
+#vector {intreg} v1[50]
+
+principal
+incepe
+    #profIonescu.nume = "Ionescu"
+    #profIonescu.ani = 32
+    #intreg nota = profIonescu.noteaza("Ion")
+
+    #intreg l = (calcLuni() + i2) % 10 + v1[40]
+
+    #afiseaza("sskdjsd")
+    #inspecteaza(l)
+    #v1[l + 5] = l ^ 3
+
+    daca (5 == 0 sau @b2)
+    incepe
+        #intreg z = 1
+    termina
+
+    cat_timp (nu @b3)
+    incepe
+        #intreg z = 2
+    termina
+
+    #intreg i = 0
+    pentru (i in [3, 7] pas = 1)
+    incepe
+        #intreg z = 3
+    termina
+
+    executa
+    incepe
+        #intreg z = 4
+    termina
+    pana_cand(@b3 sau 5 == 3^7 + i2)
+
+    #functie {text} f(
+        #functie {intreg} a1(#text b1) 
+        #intreg a2
+    )
+
+    #text t4 = t2 + f(profIonescu.noteaza("Ioana"), i2)
+    
+    #afiseaza("Urmeaza o expresie")
+    #eval(l^3 - 2^4)
+
+
+termina

@@ -1,0 +1,65 @@
+Declaratii:
+    intreg x
+    rational y
+    text s
+    caracter c
+    intrerupator aprins stins
+    vector {intreg} v[100]
+    obiect nume <>
+    functie {intreg} f <#intreg x #rational y>
+
+Keywords:
+    Logice:
+        sau
+        si
+        nu stins (aprins)
+        egal
+        diferit
+    
+    Sintaxa
+        Bucla
+            cat_timp
+            pana_cand
+            pentru
+            executa
+        Multimi
+            apartine
+            
+        daca (56 SI 47)
+        altfel
+
+        incepe 
+        termina
+
+        returneaza
+
+Functii predefinite:
+    afiseaza
+    citeste
+    debug
+
+Simboluri predefinite:
+    <-
+    +
+    -
+    *
+    /
+    %
+    ^
+
+Eroare
+
+#functie {intreg} f ()
+
+To do:
+    Declari de variabile 
+        - Nu poti declara aceeasi variabila de 2 ori
+        - Nu poti atribui tip1 la tip2
+    Expresii:
+        - Verificare operatii intre tipuri diferite
+        - Evaluarea expresiilor
+
+for 
+    #intreg i
+    while
+        #intreg i
